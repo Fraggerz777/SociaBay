@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>🔥SociaBay ⛴ 💬</h1>
         <SignOut />
       </header>
       
@@ -124,7 +124,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src = {photoURL || 'https://en.m.wikipedia.org/wiki/File:Flat_tick_icon.svg'} alt='text' />
+      <img src = {photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt=''/>
       <p>{text}</p>
     </div>
   </>)
